@@ -3,7 +3,6 @@ package approx
 import "testing"
 
 func TestNoAllocs_PublicAPI_Float64(t *testing.T) {
-	t.Parallel()
 
 	cases := []struct {
 		name string
@@ -28,7 +27,6 @@ func TestNoAllocs_PublicAPI_Float64(t *testing.T) {
 }
 
 func TestNoAllocs_PublicAPI_Float32(t *testing.T) {
-	t.Parallel()
 
 	cases := []struct {
 		name string
